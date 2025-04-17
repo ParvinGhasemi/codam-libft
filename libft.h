@@ -6,7 +6,7 @@
 /*   By: parvinm.ghasemi <parvinm.ghasemi@studen      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/04/13 12:08:32 by parvinm.gha   #+#    #+#                 */
-/*   Updated: 2025/04/14 21:33:59 by parvinm.gha   ########   odam.nl         */
+/*   Updated: 2025/04/17 23:42:17 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -34,5 +34,7 @@ char	*ft_strcpy(char *dest, char const *src);
 int		ft_strlen(char *str);
 int		ft_isspace(int c);
 int		ft_isalnum(int c);
+int		ft_str_is_uppercase(char *str);
+int		ft_str_is_lowercase(char *str);
 
 #endif
