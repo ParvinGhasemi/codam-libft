@@ -6,7 +6,7 @@
 /*   By: parvinm.ghasemi <parvinm.ghasemi@studen      +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2025/04/13 12:08:32 by parvinm.gha   #+#    #+#                 */
-/*   Updated: 2025/04/14 20:45:34 by parvinm.gha   ########   odam.nl         */
+/*   Updated: 2025/04/14 21:33:59 by parvinm.gha   ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -29,8 +29,10 @@ int		ft_toupper(int c);
 int		ft_tolower(int c);
 int		ft_isalpha(int c);
 char	*ft_strstr(char *str, char *to_find);
-
-// isalnum, iswupper
-// tolower_l, 
+int		ft_strcmp(char const *s1, char const *s2);
+char	*ft_strcpy(char *dest, char const *src);
+int		ft_strlen(char *str);
+int		ft_isspace(int c);
+int		ft_isalnum(int c);
 
 #endif
